@@ -2,7 +2,7 @@
     width: 320px;
 }
 
-.headerContainer{
+.header-div{
     width: 320px;
     height: 144px;
 }
@@ -92,8 +92,8 @@ input{
     grid-template-rows: 1fr;
 }
 
-.firstButtonDiv{
-    width: 238px;
+.first-button-div{
+    width: 600px;
     height: 56px;
     background: #ffffff;
     box-shadow: 0 3px 10px rgba(0 0 0/0.1);
@@ -107,7 +107,7 @@ input{
 }
 
 .left-button{
-    width: 237px;
+    width: 600px;
     height: 55px;
     margin: 0;
     background: transparent;
@@ -128,7 +128,7 @@ input{
     align-self: center;
 }
 
-.two-div-spin{
+.two-div-span{
     padding-left: 2px;
     display: inline-block;
     box-sizing: border-box;
@@ -161,7 +161,7 @@ input{
     cursor: pointer;
 }
 
-.anyweekAnyweek{
+.anyweek-anyweek{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -177,7 +177,7 @@ input{
     cursor: pointer;
 }
 
-.addGuests{
+.add-guests{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
