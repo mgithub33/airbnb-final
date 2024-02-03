@@ -1,0 +1,213 @@
+.window{
+    width: 320px;
+}
+
+.headerContainer{
+    width: 320px;
+    height: 144px;
+}
+
+
+
+
+
+label{
+    width: 94.18px;
+    height: 52px;
+    background-color: unset;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+    line-height: 1rem;
+    font-size: 0.75rem;
+    cursor: default;
+    margin: 12px 0 10px;
+    padding: 4px 0;
+    border: unset;
+    display: inline-block;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input{
+    padding: 0;
+    border: 0;
+    position: absolute;
+    white-space: nowrap;
+    overflow: clip;
+    height: 1px;
+    width: 1px;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+
+.iconNameContainer{
+    height: 16px;
+    width: 94.18px;
+    position: relative;
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    cursor: default;
+    font-weight: 600;
+    line-height: 1rem;
+    font-size: 0.75rem;
+}
+
+.iconName{
+    height: 16px;
+    width: 94.18px;
+    display: inline-block;
+    box-sizing: border-box;
+    white-space: nowrap;
+    text-align: center;
+    cursor: default;
+    font-weight: 600;
+    line-height: 1rem;
+    font-size: 0.75rem;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.first-section{
+    background: #ffffff;
+    position: relative;
+    width: 320px;
+    height: 70px;
+    display: block;
+    box-sizing: border-box;
+    left: 0; right: 0; top: 0; bottom: 0;
+    margin: none;
+}
+
+.second-section{
+    padding: 14px 16px 0px 16px;
+    width: 320px;
+    height: 70px;
+    align-items: center;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 70px;
+    grid-template-rows: 1fr;
+}
+
+.firstButtonDiv{
+    width: 238px;
+    height: 56px;
+    background: #ffffff;
+    box-shadow: 0 3px 10px rgba(0 0 0/0.1);
+    border: 0.5px solid rgba(0 0 0/0.08);
+    align-items: stretch;
+    border-radius: 1000px;
+    min-height: 56px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.left-button{
+    width: 237px;
+    height: 55px;
+    margin: 0;
+    background: transparent;
+    position: relative;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 52px 1fr;
+    grid-template-rows: 1fr;
+}
+
+.search-icon{
+    width: 52px;
+    height: 20px;
+    cursor: pointer;
+    place-content: center;
+    align-self: center;
+}
+
+.two-div-spin{
+    padding-left: 2px;
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    align-self: center;
+    width: 187px;
+    height: 36px;
+}
+
+.anywhere{
+    line-height: 1.25;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 0.875rem;
+    padding-top: 2px;
+}
+
+.any-week{
+    padding-inline-end: 24px;
+    line-height: 1rem;
+    font-size: 0.75rem;
+    display: flex;
+    color: #717171;
+    gap: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.anyweekAnyweek{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 50px;
+    flex: 0 1 auto;
+    
+}
+
+.dot{
+    box-sizing: border-box;
+    line-height: 1rem;
+    color: #717171;
+    cursor: pointer;
+}
+
+.addGuests{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 50px;
+    flex: 0 1 auto;
+    box-sizing: border-box;
+    line-height: 1rem;
+    color: #717171;    
+}
+
+.right-button{
+    height: 40px;
+    width: 40px;
+    align-self: center;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+.filters{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 50px;
+    border: 1px solid #B0B0B0;
+    background: transparent;
+    
+}
