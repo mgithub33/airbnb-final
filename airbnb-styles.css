@@ -1,15 +1,56 @@
-.window{
+html{
     width: 320px;
 }
 
-.header-div{
+body{
+    margin: 0px;
+    width: 320px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+.webpageDiv{
+    width: 320px;
+}
+
+.headerContainer{
     width: 320px;
     height: 144px;
 }
 
+.interestsContainer{
+    width: 320px;
+    height: 74px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: block;
+    font-size: 0.875rem;
+}
 
+.secondInterestsContainer{
+    height: 100%;
+    width: 100%;
+    position: unset;
+    box-sizing: border-box;
+    display: block;
+}
 
+.thirdInterestsContainer{
+    height: 100%;
+    width: 100%;
+    color: #717171;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-start;
+    overflow-x: auto;
+    border-bottom: 0.5px solid rgba(0 0 0/0.1);;
+}
 
+.thirdInterestsContainer::-webkit-scrollbar{
+    display: none;
+}
 
 label{
     width: 94.18px;
@@ -41,6 +82,31 @@ input{
     cursor: default;
 }
 
+.interestsIconContainer{
+    width: 94.18px;
+    height: 43.75px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    cursor: default;
+    font-weight: 600;
+    line-height: 1rem;
+    font-size: 0.75rem;
+}
+
+.interestsicon{
+    width: 94.18px;
+    height: 43.75px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    text-align: center;
+    cursor: default;
+    font-weight: 600;
+    line-height: 1rem;
+    font-size: 0.75rem;
+}
 
 .iconNameContainer{
     height: 16px;
@@ -70,7 +136,7 @@ input{
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
 
-.first-section{
+.firstContainer{
     background: #ffffff;
     position: relative;
     width: 320px;
@@ -81,7 +147,7 @@ input{
     margin: none;
 }
 
-.second-section{
+.secondContainer{
     padding: 14px 16px 0px 16px;
     width: 320px;
     height: 70px;
@@ -92,8 +158,8 @@ input{
     grid-template-rows: 1fr;
 }
 
-.first-button-div{
-    width: 600px;
+.firstButtonDiv{
+    width: 238px;
     height: 56px;
     background: #ffffff;
     box-shadow: 0 3px 10px rgba(0 0 0/0.1);
@@ -106,8 +172,8 @@ input{
     grid-template-rows: 1fr;
 }
 
-.left-button{
-    width: 600px;
+.firstButton{
+    width: 237px;
     height: 55px;
     margin: 0;
     background: transparent;
@@ -120,7 +186,7 @@ input{
     grid-template-rows: 1fr;
 }
 
-.search-icon{
+.searchIcon{
     width: 52px;
     height: 20px;
     cursor: pointer;
@@ -128,7 +194,7 @@ input{
     align-self: center;
 }
 
-.two-div-span{
+.twoDivSpan{
     padding-left: 2px;
     display: inline-block;
     box-sizing: border-box;
@@ -147,10 +213,9 @@ input{
     box-sizing: border-box;
     cursor: pointer;
     font-size: 0.875rem;
-    padding-top: 2px;
 }
 
-.any-week{
+.anyweek{
     padding-inline-end: 24px;
     line-height: 1rem;
     font-size: 0.75rem;
@@ -161,7 +226,7 @@ input{
     cursor: pointer;
 }
 
-.anyweek-anyweek{
+.anyweekAnyweek{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -177,7 +242,7 @@ input{
     cursor: pointer;
 }
 
-.add-guests{
+.addGuests{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -188,7 +253,7 @@ input{
     color: #717171;    
 }
 
-.right-button{
+.secondButton{
     height: 40px;
     width: 40px;
     align-self: center;
@@ -209,5 +274,509 @@ input{
     border-radius: 50px;
     border: 1px solid #B0B0B0;
     background: transparent;
-    
+    position: relative;
+}
+
+.mainContainer{
+    background-color: #ffffff;
+    left: 0;
+    right: 0;
+    border: 1px solid rgba(0 0 0/0.08);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+    position: fixed;
+    height: 24539px;
+    max-height: 24539px;
+    bottom: (-100 * var(--vh,1vh) + var(--explore-drawer-header_height));
+    box-sizing: border-box;
+    display: block;
+    width: 320px;
+}
+
+.mainContent{
+    display: block;
+    width: 320px;
+    height: 24515px;
+    max-height: 24515px;
+}
+
+.contentPaddingAndMargin{
+    height: 24028px;
+    max-height: 24028px;
+    margin-top: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    display: block;
+}
+
+.contentBottom{
+    height: 455px;
+    width: 320px;
+    display: block;
+}
+
+.mainContentWrapper{
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 272px;
+    height: 24028px;
+    max-height: 24028px;
+}
+
+.mainContentGrid{
+    width: 272px;
+    height: 23864px;
+    max-height: 23864px;
+
+}
+
+.mainContentGrid{
+    width: 272;
+    height: 23864;
+    max-height: 23864px;
+    display: grid;
+    grid-template-columns: var( --breakpoint-grid_column-template,repeat(var(--breakpoint-grid_columns,1),minmax(0,1fr)) );
+    grid-auto-flow: row dense;
+    grid-auto-rows: var( --breakpoint-grid_auto-rows,minmax(min-content,max-content) );
+    grid-row-gap: 40px;
+    grid-column: 1;
+    grid-column-gap: 24px;
+}
+
+.cardWrapperOne{
+    height: 358.4px;
+    width: 272px;
+    display: block;
+}
+
+.cardGrid{
+    height: 358.4px;
+    width: 272px;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.cardLayout{
+    height: 358.4px;
+    width: 272px;
+    grid-area: 1 / 1 / 2 / 2;
+    display: block;
+}
+
+.cardLayoutTwo{
+    position: relative;
+    width: 272px;
+    height: 358.4px;
+    display: block;
+}
+
+.cardLayoutThree{
+    height: 358.4px;
+    width: 272px;
+    flex-direction: column;
+    display: flex;
+}
+
+.cardTopHalf{
+    width: 272px;
+    height: 258.4px;
+    margin-bottom: 12px;
+    aspect-ratio: 20/19;
+}
+
+.pictureWrapper{
+    width: 272px;
+    height: 258.4px;
+    background-color: #dddddd;
+    border-radius: 15px;
+    overflow: clip;
+    position: relative;
+    z-index: 0;
+    display: block;
+    background-image: url(home.webp);
+    background-size: cover;
+}
+
+.pictureGrid{
+    width: 272px;
+    height: 258.4px;
+    display: grid;
+    grid-template: var( --contentscroller_layout_grid-template,
+    'header'
+    'scroller'
+    'footer'/minmax(0,1fr) );
+}
+
+.pictureLayout{
+    margin-inline-end: var(--contentscroller_controls_margin-inline-end,unset);
+    margin-inline-start: var(--contentscroller_controls_margin-inline-start,unset);
+    z-index: 1;
+    pointer-events: var(--contentscroller_controls_pointer-events);
+    place-self: var(--contentscroller_controls_place-self,auto end);
+    margin-block-end: var(--contentscroller_controls_margin-block-end,unset);
+    margin-block-start: var(--contentscroller_controls_margin-block-start,unset);
+    grid-area: var(--contentscroller_controls_grid-area,header);
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+.pictureLayoutTwo{
+    left: 12px; right: 12px; top: 12px; bottom: 0;
+    background: linear-gradient(180deg,transparent 80%,rgba(0,0,0,0.25));
+    padding: var( --media-overlay_padding,var(--b-y-unon) var(--b-y-unon) 0 );
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    pointer-events: none;
+    flex-flow: column;
+    align-items: center;
+    padding: var( --media-overlay_padding,var(--b-y-unon) var(--b-y-unon) 0 );
+}
+
+.picture1stThird{
+    width: 248px;
+    height: 78.14px;
+    grid-template-columns: repeat(2,minmax(min-content,auto));
+    display: grid;
+    grid-column-gap: 16px;
+    flex: 1 0;
+}
+
+.randomDiv{
+    height: 78.14px;
+    width: 0;
+    justify-self: flex-start;
+    display: block;
+}
+
+.heartWrapper{
+    width: 44px;
+    height: 78.14px;
+    justify-self: flex-end;
+    display: flex;
+}
+
+.heartContainer{
+    height: 32px;
+    width: 32px;
+    margin-left: 12px;
+    display: block;
+}
+
+.heartButton{
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: -2px 0 0;
+    margin: -2px 0 0;
+    position: relative;
+    outline: none;
+    display: inline-flex;
+    color: #222222;
+}
+
+.picture2ndThird{
+    width: 248px;
+    height: 78.14px;
+    margin-bottom: 12px;
+    align-items: center;
+    grid-template-columns: repeat(2,minmax(min-content,auto));
+    display: grid;
+    grid-column-gap: 16px;
+    flex: 1 0;
+}
+
+.randomDivTwo{
+    width: 0;
+    height: 0;
+    justify-self: flex-start;
+    display: block;
+}
+
+.randomDivfour{
+    height: 1px; width: 1px;
+    padding: 0; border: 0;
+    position: absolute;
+    white-space: nowrap;
+    overflow: clip;
+    display: block;
+}
+
+.randomButtonOne{
+    height: 32px; width: 32px;
+    padding: 0; margin: 0;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.randomDivThree{
+    width: 0;
+    height: 0;
+    justify-self: flex-end;
+    display: block;
+}
+
+.randomDivfive{
+    height: 1px; width: 1px;
+    padding: 0; border: 0;
+    position: absolute;
+    white-space: nowrap;
+    overflow: clip;
+    display: block;
+}
+
+.randomButtonTwo{
+    height: 32px; width: 32px;
+    padding: 0; margin: 0;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.picture3rdThird{
+    width: 248px;
+    height: 78.14px;
+    align-items: flex-end;
+    grid-template-columns: repeat(3,minmax(min-content,1fr));
+    display: grid;
+    grid-column-gap: 16px;
+    flex: 1 0;
+}
+
+.randomDivSix{
+    width: 0; height: 0;
+    justify-self: flex-start;
+    display: block;
+}
+
+.imageScrollerWrapper{
+    justify-self: center;
+    display: block;
+    width: 55px; height: 18px;
+}
+
+.imageScrollerContainer{
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    display: flex;
+}
+
+.imageScrollerLayout{
+    padding-bottom: 12px;
+    overflow: clip;
+    display: flex;
+    width: 55px;
+    height: 6px;
+}
+
+.individualSelectors{
+    margin: 0; padding: 0;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    width: 66px;
+    height: 6px;
+}
+
+.firstSelector{
+    width: 6px; height: 6px; opacity: 1;
+    margin-right: 2.5px; margin-left: 2.5px;
+    background: #ffffff; border-radius: 50%;
+}
+
+.secondtSelector{
+    width: 6px; height: 6px; opacity: 0.6;
+    margin-right: 2.5px; margin-left: 2.5px;
+    background: #ffffff; border-radius: 50%;
+}
+
+.thirdSelector{
+    width: 6px; height: 6px; opacity: 0.6;
+    margin-right: 2.5px; margin-left: 2.5px;
+    background: #ffffff; border-radius: 50%;
+}
+
+.fourthSelector{
+    width: 5px; height: 5px; opacity: 0.6;
+    margin-right: 2.5px; margin-left: 2.5px;
+    background: #ffffff; border-radius: 50%;
+}
+
+.fifthSelector{
+    width: 4px; height: 4px; opacity: 0.6;
+    margin-right: 2.5px; margin-left: 2.5px;
+    background: #ffffff; border-radius: 50%;
+}
+
+.sixthSelector{
+    width: 4px; height: 4px; opacity: 0.6;
+    margin-right: 2.5px; margin-left: 2.5px;
+    background: #ffffff; border-radius: 50%;
+}
+
+.randomDivSeven{
+    width: 0; height: 0;
+    justify-self: flex-end;
+    display: block;
+}
+
+.cardBottomHalf{
+    width: 272px;
+    height: 88px;
+    line-height: 1.1875rem;
+    font-size: 0.9375rem;
+    display: grid;
+    grid-template-columns: var( --card-content-grid_template-columns,minmax(0,1fr) max-content );
+    --card-content-grid_gap: var(--d-b-mrdy) var(--fgg-f-l-a);
+    gap: 2px 8px
+}
+
+.firstLine{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    word-break: var(--title_word-break,break-all);
+    color: #222222;
+    font-weight: 600;
+}
+
+.secondLine{
+    grid-column: 1 / -1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    color: #717171;
+}
+
+.secondLineWrapper{
+    line-height: inherit;
+    font-size: 0.9375rem;
+}
+
+.thirdLine{
+    grid-column: 1 / -1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    color: #717171;
+}
+
+.thirdLine1sthalf{
+    line-height: inherit;
+    font-size: 0.9375rem;
+}
+
+.thirdLine2ndHalf{
+    line-height: inherit;
+    font-size: 0.9375rem;
+}
+
+.thirdLine2ndHalf1{
+    padding: 0; border: 0; position: absolute;
+    white-space: nowrap; overflow: clip;
+    width: 1px; height: 1px;
+    clip-path: inset(100%);
+}
+
+.thirdLine2ndHalf2{
+    line-height: inherit;
+    font-size: 0.9375rem;
+}
+
+.thirdLine2ndHalf3{
+    line-height: inherit;
+    font-size: 0.9375rem;
+}
+
+.fourthLine{
+    margin-top: 6px;
+    grid-column: 1 / -1;
+    display: block;
+    font-size: 0.9375rem;
+    line-height: 1.1875rem;
+}
+
+.fourthLineWrapper{
+    display: flex ;
+    flex-flow: wrap;
+    align-items: center;
+    font-size: 0.9375rem;
+    line-height: 1.1875rem;
+
+}
+
+.fourthLineCountainer{
+    display: inline-flex ;
+    position: relative ;
+    font-size: 0.9375rem;
+    line-height: 1.1875rem;
+}
+
+.fourthLineSpan{
+    font-size: 16px ;
+    line-height: 20px;
+}
+
+.fourthLineDiv{
+    -webkit-box-pack: flex-start ;
+    -webkit-box-align: baseline ;
+    align-items: baseline ;
+    color: rgb(34, 34, 34) ;
+    justify-content: flex-start ;
+    flex-wrap: wrap ;
+}
+
+.price{
+    font-weight: 600;
+
+}
+
+.total{
+    font-weight: 400 ;
+    font-size: 0.875rem;
+    line-height: 1.125rem; 
+
+}
+
+.fifthLine{
+    justify-self: end;
+    grid-row: 1;
+    grid-column: -2 / -1;
+    display: block;
+}
+
+.fifthLineDiv{
+    display: block;
+}
+
+.floatingBox{
+    right: 0; left: 0; bottom: 0; top: 144px;
+    width: 100dvw;
+    height: 100svh;
+    contain: strict;
+    pointer-events: none;
+    visibility: hidden;
+    position: fixed;
+    z-index: -1;
+    display: block;
+}
+
+.showMore{
+    display: block;
+    width: 272px;
+    height: 108px;
 }
